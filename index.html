@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--In this game you will have to try and guess a code that the computer randomly generates-->
+    <title>Code-breaker</title>
+    <link href="https://fonts.cdnfonts.com/css/public-pixel" rel="stylesheet">
+                
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-over">
+        <H1>GAME OVER</H1>
+    </div>
+
+    
+
+    <div id="content">
+        <div id="screen">
+            <div id="code-input">
+                <div id="text">
+                    <p id="message">The computer has made its choice... guess carefully</p>
+                    <p>Round <span id="round">1</span> | <span id="turnsLeft">9</span> turns left</p>
+                    <p>Enter code: 
+                    <span id="code"></span>
+                    <!--silly little line for decoration purposes-->
+                    <span id="theLine">_</span>
+                    </p>
+                </div>
+                
+
+            </div>
+        </div>
+<!--made a div for all my buttons-->
+        <div id="container-btn">
+                <button class="btn" onclick="nr('1')">1</button>
+                <button class="btn" onclick="nr('2')">2</button>
+                <button class="btn" onclick="nr('3')">3</button>
+                <button class="btn" onclick="nr('4')">4</button>
+                <button class="btn" onclick="nr('5')">5</button>
+                <button class="btn" onclick="nr('6')">6</button>
+    
+                <button onclick="verifyCode()">Enter</button>
+                <button id="newTurn" onclick="newTurn()">New Turn</button>
+        </div>
+        <img id="fakeBtn" src="./resources/fakeBtn.png" alt="">
+    </div>
+    <div id="console-screen">
+        <div id="console">
+            <p>Code log:</p>
+        </div>
+    </div>
+    
+  
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

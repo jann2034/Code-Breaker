@@ -1,0 +1,32 @@
+game of life
+rock paper scissors
+taking care of a dangerous pet/plant(feed/talk/water)
+break the code game
+
+
+BREAK THE CODE LETS GOO
+
+interface, locked door with a code thingy on top, 6 buttons(nr 1-6), a lil screen where u see the code u introduced, 'enter' button -> onClick => function that verifies ur code. If correct => u guessed the code
+							if wrong => Error! x numbers are correct in the correct position
+									   y numbers are correct in the wrong position
+									   restart the game(aka myIdx == 0)
+
+!!when enter.onClick check whether all myId's are !=0(alert if so); else then execute;
+
+compId1= 1
+compId2 = 4
+compId3 = 3
+compId4 = 2
+
+if(myid1 === compId1 && myId2 === compId2 && myId3 === compId3 && myId4 === compId4) 'You broke the code';
+else{
+	
+} 
+
+switch(myId1){
+	case 1: 
+
+
+
+ce face butonul?
+on click>> span += ` `
